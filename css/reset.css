@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*@font-face{
+   font-family:"Aventa Thin";   
+   font-style:normal;
+   font-weight:600;
+   src:url('../font/EllenLuff - Aventa Thin.otf');
+   src: local(Aventa Thin),
+   url('../font/EllenLuff - Aventa Thin.otf') format('otf'),
+}*/
+
+
+*{
+   margin:60;
+   padding:60;
+   box-sizing:border-box;
+}
+
+html, body{
+   font-family: Aventa;
+   font-style: normal;
+   font-weight:600;
+   font-size:16px;
+   color:#434343;
+   line-height:1;
+}
+
+nav ul, li{
+   list-style:none;
+}
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
+   display:block;
+}
+
+a{
+   text-decoration:none;
+   display:block;
+   color:#434343;
+}
