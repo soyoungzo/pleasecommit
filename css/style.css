@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* {
+    background-color: black;
+}*/
+
+header {
+    
+}
+.main_title {
+    height: 100%;
+    background-color: pink;
+}
+#wraper {
+    background-color: black;
+}
+.gnb {
+    display: table;
+    width: 100%;
+    height: 60px;
+}
+.menuwrap {
+    width: 100%;
+    display: table;
+}
+.menu {
+    color: white;
+    display: table-cell;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.goldbest {
+    text-decoration: #FFE200;
+    background-color: black;
+ }
+
+.thum {
+    width: 320px;
+    height: 240px;
+}
+.bigthum {
+    width: 100%;
+}
+.explain {
+    width: 600px;
+    box-sizing: border-box;
+    word-break : keep-all
+}

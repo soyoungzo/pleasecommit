@@ -1,0 +1,27 @@
+.gnb {
+    display: table;
+    width: 100%;
+    height: 60px;
+}
+.menuwrap {
+    width: 100%;
+    display: table;
+}
+.menu {
+    color: white;
+    display: table-cell;
+    position: absolute;
+    padding-top: 20px;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    height: 1595px;
+    background: #BEB29B;
+}
+.context {
+    background-color: #F8F7F5;
+    width: 100%;
+    height: 1126px;
+    position: absolute;
+}

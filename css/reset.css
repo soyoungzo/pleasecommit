@@ -11,8 +11,8 @@
 
 
 *{
-   margin:60;
-   padding:60;
+   margin: 0;
+   padding: 0;
    box-sizing:border-box;
 }
 
@@ -20,9 +20,24 @@ html, body{
    font-family: Aventa;
    font-style: normal;
    font-weight:600;
-   font-size:16px;
+   font-size:15px;
    color:#434343;
    line-height:1;
+   width: 100%;
+}
+
+body {
+   margin:60;
+   padding:60;
+}
+
+nav a {
+   font-family: Spoqa Han Sans Neo;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   letter-spacing: 0em;
+   text-align: left;
 }
 
 nav ul, li{
@@ -35,6 +50,24 @@ article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
 
 a{
    text-decoration:none;
-   display:block;
-   color:#434343;
+   color: black;
 }
+
+img {
+   height: 301px;
+   width: 540px;
+   left: 450px;
+   top: 300px;
+   border-radius: 15px;
+   background: url(/Img/IMG_6776.jpg);
+   position: absolute;
+}
+
+.grid {
+    max-width: 88%;
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+
