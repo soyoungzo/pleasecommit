@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.gnb {
+    background-color: #EA5743;
+    display: table;
+    width: 100%;
+    height: 60px;
+}
+.menuwrap {
+    width: 100%;
+    display: table;
+}
+.menu {
+    color: white;
+    display: table-cell;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.highlight {
+    font-size: 50px;
+    border-bottom: 2px solid;
+}
+
+.back4 {
+    background-color: #EA5743;
+    width: 100%;
+    height: 759px;
+}
+
+.back3 {
+    background-color: white;
+    width: 100%;
+    height: 759px;
+}
+
+.back2 {
+    background-color: #FFF6F6;
+    width: 100%;
+    height: 680px;
+}
+
+#cakewalk {
+    background-color: #EA5743;
+    width: 100%;
+    height: 1595px;
+}
