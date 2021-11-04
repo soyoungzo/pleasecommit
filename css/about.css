@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 * {
-    background-color: #9AC2FF;
+    background-color: EEEEEE;
 
 }
 
 .gnb {
-    background-color: #9AC2FF;
+    background-color: EEEEEE;
     display: table;
     width: 100%;
     height: 60px;
@@ -16,7 +16,7 @@
     display: table;
 }
 .menu {
-    color: white;
+    color: black;
     display: table-cell;
     position: absolute;
     padding-top: 20px;

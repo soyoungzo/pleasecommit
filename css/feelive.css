@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    width: 100%;
+}
+
+.feelive {
+    background-color: #38435C;
+    height: 2883px;
+    position: relative;
+}
+
+.gnb {
+    background-color: #38435C;
+    display: table;
+    width: 100%;
+    height: 60px;
+}
+#menuwrap {
+    width: 100%;
+    display: table;
+}
+.menu {
+    color: white;
+    display: table-cell;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.topimg {
+    position: relative;
+}
+
+.bigthum {
+    width: 100%;
+}
+
+.maintxt {
+    position:absolute;
+    top: 120px;
+    left: 80%;
+    z-index: 1;
+    color: white;
+}
+
+/*h2 {
+    position:absolute;
+    top: 60px;
+    left: 80%;
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+}
+
+.txt {
+    position:absolute;
+    top: 190px;
+    left: 80%;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+}
+
+.txt2 {
+    position:absolute;
+    top: 306px;
+    left: 80%;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+}*/
+
+.solution {
+    width: 1320px;
+    height: 710px;
+    margin: auto;
+}
+
+.logoimg {
+    width: 319px;
+    height: 90px;
+}
+
+.render {
+    width: 1320px;
+    height: 818px;
+    margin: auto;
+}
+
+.detail {
+    width: 1320px;
+    height: 472px;
+}
+
+.lightimg {
+    width: 1320px;
+    height: 880px;
+}
+
+.lighttouch {
+    width: 1320px;
+    height: 400px;
+}
+
+.strucimg{
+    width: 680px;
+    height: 755px;
+}
+
+.mainmock {
+    width: 960px;
+    height: 672px;
+}
+
+.explain {
+    color: white;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+}
