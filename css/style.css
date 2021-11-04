@@ -3,108 +3,152 @@
     background-color: black;
 }*/
 #wraper {
-    background-color: black; 
+  background-color: black;
 }
 
 .gnb {
-    display: table;
-    width: 100%;
-    height: 60px;
+  display: table;
+  width: 100%;
+  height: 60px;
 }
 .menuwrap {
-    width: 100%;
-    display: table;
+  margin: 0px 60px;
+  display: flex;
+  justify-content: space-between;
 }
 .menu {
-    color: white;
-    display: table-cell;
-    position: absolute;
-    padding-top: 20px;
+  color: white;
+  display: table-cell;
+  padding-top: 20px;
+}
+
+.unactive {
+  color: #ffffff80;
 }
 
 .main_title {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    position: relative;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.main_txt,
+.main_txt2 {
+  position: absolute;
+  /* background-color: pink; */
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+}
+.main_txt {
+  top: 10px;
 }
 
-.main_txt {
-    font-family: 'Black Han Sans', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
-    position: absolute;
-    color: #EEEEEE;
+@keyframes mymove {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.main_txt > p {
+  width: 100%;
+  font-size: 120px;
+  font-weight: 500;
+  /* background-color: red; */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+  animation: mymove 10s linear infinite;
 }
 
 .main_txt2 {
-    font-family: 'Black Han Sans', sans-serif;
-    color: #EEEEEE;
-    font-size: 80px;
-    font-weight: 500;
-    position: absolute;
-    bottom: 0;
+  bottom: 10px;
+  /* background-color: yellow; */
+}
+
+@keyframes mymove2 {
+  0% {
+    left: -110%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.main_txt2 > p {
+  width: 110%;
+  font-size: 120px;
+  font-weight: 500;
+  text-align: right;
+  /* background-color: red; */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  animation: mymove2 10s linear infinite;
+  padding-top: 10px;
 }
 
 img {
-    height: 301px;
-    width: 540px;
-    border-radius: 15px;
- }
+  height: 301px;
+  width: 540px;
+  border-radius: 15px;
+}
 
 .cardsingle {
-    perspective: 1000px;
-     justify-content: center;
-     align-content: center;
-     align-items: center;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    -webkit-transition: transform 0.6s;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    position: relative;
-    transition: transform 0.6s;
-    -webkit-transition: transform 0.6s;
-    
-  }
+  perspective: 1000px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  -webkit-transition: transform 0.6s;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  position: relative;
+  transition: transform 0.6s;
+  -webkit-transition: transform 0.6s;
+}
 
 .cardsingle.flip {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .cards_front img {
-    margin: 0;
-    height: 301px;
-    width: 540px;
-  }
-  
-  .cards_front, .cards_back {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-  }
+  margin: 0;
+  height: 301px;
+}
 
-  .cards_front {
-    transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg);
-  }
+.cards_front,
+.cards_back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
 
-  .cards_back {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 10px;
-  }
+.cards_front {
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+}
 
-  .cardContainer {
-    position: absolute;
-    top : 50%;
-    left : 50%;
-    transform: translate(-50%,-50%);
-  }
+.cards_back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10px;
+}
+
+.cardContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

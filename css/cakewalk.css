@@ -1,47 +1,494 @@
 @charset "UTF-8";
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .gnb {
-    background-color: #EA5743;
-    display: table;
-    width: 100%;
-    height: 60px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  z-index: 2;
+  background-color: #ea5743;
 }
+
 .menuwrap {
-    width: 100%;
-    display: table;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
 }
+
 .menu {
-    color: white;
-    display: table-cell;
-    position: absolute;
-    padding-top: 20px;
+  color: white;
+  padding-top: 20px;
 }
 
-.highlight {
-    font-size: 50px;
-    border-bottom: 2px solid;
+.unactive {
+  color: #ffffff80;
 }
 
-.back4 {
-    background-color: #EA5743;
-    width: 100%;
-    height: 759px;
+.padding-area {
+  width: 100%;
+  height: 60px;
 }
 
-.back3 {
-    background-color: white;
-    width: 100%;
-    height: 759px;
+.cakewalk {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
 }
 
-.back2 {
-    background-color: #FFF6F6;
-    width: 100%;
-    height: 680px;
+.cakewalk-h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ea5743;
+  margin: 60px 60px 80px 60px;
 }
 
-#cakewalk {
-    background-color: #EA5743;
-    width: 100%;
-    height: 1595px;
+.cakewalk-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px 60px 60px 60px;
+  color: #ea5743;
+}
+
+.cakewalk-p span {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.cakewalk-2 {
+  background-color: #ea5743;
+  width: 100%;
+  padding-bottom: 90px;
+}
+
+.cakewalk-2-h1 {
+  margin: 0px 60px 20px 60px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.right-text {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cakewalk-2-img {
+  margin: 30px 100px;
+}
+
+.cakewalk-2-p {
+  color: white;
+  display: inline-block;
+  width: 600px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0px 60px;
+}
+
+.cakewalk-3 {
+  background-color: #fff6f6;
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.cakewalk-3-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
+}
+
+.cakewalk-3-h1 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-decoration: underline;
+}
+
+.cakewalk-3-p {
+  width: 600px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.cakewalk-3-img {
+  display: block;
+  margin: 14px 200px 0px 200px;
+}
+
+.cakewalk-3-p-color {
+  color: #ea5743;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.cakewalk-3-p-color span {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+.cakewalk-4 {
+  width: 100%;
+  padding-bottom: 70px;
+  background-color: white;
+}
+
+.cakewalk-4-img {
+  display: block;
+  width: calc(100% - 180px);
+  margin: 40px 90px 0px 90px;
+}
+
+.cakewalk-5 {
+  width: 100%;
+  background-color: #fff6f6;
+  padding-bottom: 50px;
+}
+
+.cakewalk-5-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 140px;
+}
+
+.cakewalk-5-h1 {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ea5743;
+  margin: 0px 60px 60px 60px;
+}
+
+.cakewalk-5-span-wrapper {
+  position: relative;
+}
+
+.cakewalk-5-img {
+  position: absolute;
+  bottom: -80px;
+  right: -200px;
+}
+
+.cakewalk-5-span {
+  font-size: 40px;
+  line-height: 52px;
+  text-decoration: underline;
+  color: #ea5743;
+}
+
+.cakewalk-5-h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.cakewalk-5-p {
+  width: 440px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 120px;
+}
+
+.cakewalk-6 {
+  width: 100%;
+  background-color: #ea5743;
+}
+
+.cakewalk-6-h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.cakewalk-6-p {
+  width: 640px;
+  margin: 0px 60px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.cakewalk-6-span-wrapper {
+  margin: 0px 90px 120px 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cakewalk-6-span {
+  color: white;
+  font-size: 50px;
+  line-height: 72px;
+  text-decoration: underline;
+}
+
+.h1-6-top {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.h1-6-bottom {
+  margin: 100px 90px 20px 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cakewalk-6-img-list {
+  width: 100%;
+  display: flex;
+}
+
+.cakewalk-6-img-item {
+  width: 33%;
+}
+
+.cakewalk-7 {
+  width: 100%;
+  background-color: white;
+}
+
+.cakewalk-7-p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 24px;
+}
+
+.cakewalk-logo-wrapper {
+  margin: 100px 200px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cakewalk-logo-item {
+  width: 40%;
+  height: auto;
+}
+
+.cakewalk-char-wrapper {
+  margin: 150px 220px 120px 220px;
+}
+
+.cakewalk-char-list {
+  width: 100%;
+  display: flex;
+}
+
+.cakewalk-char-list img {
+  width: 25%;
+  display: flex;
+}
+
+.typo-wrapper {
+  margin: 60px 250px 150px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.typo-item {
+  width: 40%;
+}
+
+.logo-img {
+  display: inline-block;
+  width: 100%;
+  margin-top: 19px;
+}
+
+.logo-img-2 {
+  height: 100px;
+  margin-top: 70px;
+}
+
+.cakewalk-8 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.cakewalk-8-main {
+  width: 50%;
+  height: 100%;
+  background-color: #ea5743;
+  position: relative;
+}
+
+.cakewalk-8-palatte {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cakewalk-8-h1 {
+  margin: 60px;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  font-weight: 700;
+}
+
+.cakewalk-8-other {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+
+.box-ff {
+  background-color: #ffde61;
+}
+
+.box-53 {
+  background-color: #5397dd;
+}
+
+.box-3e {
+  background-color: #3eaa85;
+}
+
+.box-99 {
+  background-color: #999999;
+}
+
+.color-name {
+  font-size: 15px;
+  line-height: 18px;
+  position: absolute;
+  bottom: 60px;
+}
+
+.main {
+  left: 60px;
+}
+
+.other {
+  right: 60px;
+}
+
+.cakewalk-9 {
+  background-color: white;
+}
+.cakewalk-9-h1 {
+  margin-top: 90px;
+}
+
+.cakewalk-9-img-1 {
+  width: calc(100% - 120px);
+  margin: 30px 60px 100px 60px;
+}
+
+.cakewalk-10 {
+  background-color: #fff6f6;
+}
+
+.img-6-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
+}
+
+.cakewalk-11-p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.img-11-1 {
+  width: calc(100% - 137px);
+  margin: 0px 60px 139px 77px;
+}
+
+.cakewalk-11-sub {
+  margin-left: 60px;
+}
+
+.filter-img-wrapper {
+  display: flex;
+  margin: 20px 65px 150px 65px;
+}
+
+.filter-img-wrapper img {
+  width: 25%;
+}
+
+.product-img-wrapper-1 {
+  margin: 20px 60px 0px 60px;
+}
+
+.product-img-wrapper-2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 60px 60px 20px 60px;
+}
+
+.product-img {
+  width: 70%;
+}
+
+.simulation-text {
+  display: inline-block;
+  width: calc(100% - 120px);
+  margin: 0px 60px 150px 60px;
+  text-align: right;
+}
+
+.reserved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #fff6f6;
+}
+
+.reserved p {
+  display: inline-block;
+  color: #00000080;
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1224px) {
+  .cakewalk-5-img {
+    display: none;
+  }
+
+  .cakewalk-5-span {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
