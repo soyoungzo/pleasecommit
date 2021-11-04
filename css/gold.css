@@ -4,13 +4,8 @@
     background-color: black;
     color: #FFE200;
 
-    font-family: Spoqa Han Sans Neo;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    margin: auto;
 }
 
 .gnb {
@@ -37,10 +32,22 @@
 .context {
     display: grid;
     place-content: center;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .explain {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
     width: 600px;
+    text-align: center;
 }
 
 .posterimg {

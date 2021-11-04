@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 * {
-    background-color: EEEEEE;
+    background-color: #EEEEEE;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 
 }
 
 .gnb {
-    background-color: EEEEEE;
+    background-color: #EEEEEE;
     display: table;
     width: 100%;
     height: 60px;
