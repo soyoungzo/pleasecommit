@@ -10,9 +10,9 @@ window.addEventListener("resize",function(){
 });
 
 /*flip card effect*/
-const card = document.querySelectorAll(".card");
+const card = document.querySelectorAll(".cardsingle");
 
 function flipCard() {
   this.classList.toggle("flip");
 }
-cards.forEach((card) => card.addEventListener("click", flipCard))
+card.forEach((card) => card.addEventListener("click", flipCard))

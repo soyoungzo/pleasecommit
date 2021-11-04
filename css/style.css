@@ -70,13 +70,33 @@
     transform: translate(-50%,-50%);
  }*/
 
- .card {
+.card {
      display: flex;
      flex-direction: column;
+     position: relative;
+    perspective: 1000px;
      justify-content: center;
      align-content: center;
      align-items: center;
    }
+
+.cardsingle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    -webkit-transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    position: relative;
+  transition: transform 0.6s;
+    -webkit-transition: transform 0.6s;
+  }
+
+.cardsingle.flip {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
 
 .card_front img {
     margin: 0;
@@ -85,11 +105,18 @@
     border-radius: 15px;
   }
 
-  .card_back {
+  .card_front, .card_back {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
+
+    /*transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10px;*/
   }
 
   .card_front {
@@ -98,18 +125,15 @@
     -webkit-transform: rotateX(0deg);
   }
 
-  .card_front, .card_back {
+  .card_back {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     position: absolute;
-    text-align: center;
     right: 0;
     left: 0;
     top: 10px;
-    color: #20263f;
-  }
-
-  .card.flip {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
+    /*-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;*/
   }
