@@ -34,13 +34,16 @@
 .main_txt,
 .main_txt2 {
   position: absolute;
-  /* background-color: pink; */
   width: 100%;
   height: 130px;
-  overflow: hidden;
 }
-.main_txt {
-  top: 10px;
+
+.main_txt span {
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 130px;
 }
 
 @keyframes mymove {
@@ -148,7 +151,7 @@ img {
 
 .cardContainer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 120px;
+  bottom: 90px;
+  /* transform: translate(-50%, -50%); */
 }
