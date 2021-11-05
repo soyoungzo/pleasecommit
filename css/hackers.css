@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+.gnb {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  z-index: 2;
+  background-color: #3a65c7;
+}
+
+.menuwrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
+}
+
+.menu {
+  color: white;
+  padding-top: 20px;
+}
+
+.unactive {
+  color: #ffffff80;
+}
+
+.padding-area {
+  width: 100%;
+  height: 60px;
+}
+
+.hackers-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #3a65c7;
+  background-size: 100% 100%;
+}
+
+.hackers-1-h1 {
+  margin: 60px 0px 0px 60px;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.hackers-1-p {
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 60px;
+}
+
+.p-1-top {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.hackers-2 {
+  width: 100%;
+  background-color: #ebf0f9;
+  padding-bottom: 100px;
+}
+
+.hackers-h1 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3a65c7;
+}
+
+.hackers-p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3a65c7;
+}
+
+.hackers-center {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.hackers-2-head-1 {
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.hackers-2-head-2 {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.hackers-2-head-3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.hackers-2-head-4 {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.hackers-img {
+  width: calc(100% - 500px);
+  margin: 0px 250px;
+}
+
+.hacker-full {
+  width: 100%;
+}
+
+.hackers-2-left {
+  display: inline-block;
+  text-align: left;
+  width: 720px;
+  margin: 0 calc(50% - 360px);
+}
+
+.hackers-2-wrapper {
+  margin: 0px 250px 40px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hackers-3 {
+  width: 100%;
+  padding-bottom: 180px;
+}
+
+.hackers-3-head-2 {
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+
+.hackers-3-head-3 {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.hackers-3-head-4 {
+  margin-top: 240px;
+  margin-bottom: 80px;
+}
+
+.hackers-3-head-5 {
+  margin-top: 100px;
+  margin-bottom: 72px;
+}
+
+.hackers-3-span {
+  font-size: 50px;
+  line-height: 60px;
+  color: #3a65c7;
+  text-decoration: underline;
+}
+
+.hackers-3-wrapper {
+  display: flex;
+  margin: 230px 250px 0px 250px;
+  justify-content: space-between;
+}
+
+.hackers-3-inner {
+  width: 45%;
+}
+
+.hackers-3-h1-margin {
+  margin-bottom: 60px;
+}
+
+.hackers-3-inner-img {
+  width: 100%;
+}
+
+.hackers-3-color {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.hackers-sub-p {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 110px;
+}
+
+.reserved {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a65c7;
+}
+
+.reserved p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+}
